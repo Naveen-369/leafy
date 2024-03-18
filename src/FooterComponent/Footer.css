@@ -1,0 +1,43 @@
+footer{
+    color: white;
+    background-color: rgb(23, 41, 24);
+    display: flex;
+    justify-content: space-around;
+    section{
+        h4{
+            font-family: 'Elsie Swash Caps', serif;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+        }
+        p{
+            font-family: 'Playfair Display', serif;
+            font-size: 15px;
+        }
+    }
+}
+footer .Subscription{
+    input{
+    background-color: var(--colorFooter);
+    border: 0;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(0, 255, 17);
+    color: var(--colorFooterText);
+    width: 80%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    }
+    i:hover{
+        cursor: pointer;
+    }
+}
+.inputter{
+    display: flex;
+}
+.material-symbols-outlined{
+    font-size: 60px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}

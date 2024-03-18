@@ -1,0 +1,21 @@
+header{
+    color: white;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        font-family: 'Elsie Swash Caps', serif;
+        margin: 6px;
+    }
+    nav{
+        display: flex;
+        h2{
+            margin: 6px;
+            font-family: 'Bacasime Antique', serif;
+            display: flex;
+            padding-left: 30px;
+        }
+    }
+}

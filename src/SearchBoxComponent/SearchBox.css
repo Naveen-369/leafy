@@ -1,0 +1,29 @@
+.SearchBox{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    width: 700px;
+    background-color: white;
+    border: 0.3px solid white;
+    font-size: 21px;
+    font-family: "Artifika", serif;
+    color: black;
+    padding:15px 15px 15px 20px;
+    border-radius: 30px;
+}
+button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: black;  
+    font-family: "Stylish", serif;
+    margin-left: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+button:hover{
+    transform: scale(1.2);
+}
