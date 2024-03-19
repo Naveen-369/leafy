@@ -1,0 +1,7 @@
+.Contents{
+    cursor: pointer;
+    transition: transform 0.6s ease ;
+}
+.Contents:hover{
+    transform: scale(1.1);
+}

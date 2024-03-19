@@ -1,0 +1,24 @@
+.Contents{
+    flex: 1;
+    background-color: white;
+    color:black;
+    width: 20% !important;
+    max-width: 20%;
+    max-height: 505px;
+    text-align: center;
+    border-radius: 40px;
+    img{
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 100% !important;
+        height: 62% !important;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: "Artifika", serif;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
