@@ -9,13 +9,25 @@ header{
         font-family: 'Elsie Swash Caps', serif;
         margin: 6px;
     }
-    nav{
+    nav,ul{
         display: flex;
-        h2{
+        ul li{
+            font-size: 27px;
+            font-weight: 900;
             margin: 6px;
             font-family: 'Bacasime Antique', serif;
             display: flex;
             padding-left: 30px;
+            cursor: pointer;
+            transition: transform 0.1s ease;
+        }
+        li:hover{
+            transform: scale(1.2);
+        }
+        #vebig:hover{
+            border-radius: 30px;
+            color: black;
+            background-color: white;
         }
     }
 }

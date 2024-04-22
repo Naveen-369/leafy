@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     const ginger=()=>{
         var mail=document.getElementById('mail').value;
-        if(mail.includes('@') && mail.includes('.')){
+        if(mail.includes('@') && (mail.includes('.com') || mail.includes('.ac.in'))){
             prompt('Enter the same MailID again to get registered for the newsletter : ');
         }
         else{
