@@ -22,37 +22,41 @@ body, html {
   
   #inputter {
     max-width: 400px;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 60px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.647);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   #inputter label {
-    font-weight: 300;
+    font-weight: 400;
     margin: 10px;
     color: black;
-    font-size: 20px;
+    font-size: 33px;
   }
   
   #inputter input {
     text-align: center;
     width: 300px;
     margin: 10px;
-    padding: 8px;
+    padding: 12px;
   }
   
   #inputter button {
-    margin-top: 18px;
-    padding: 10px 20px;
+    padding: 12px;
+    border-radius: 21px;
     border: none;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 0px !important;
+    background-color:rgb(7, 108, 7);
+    color: white;   
     cursor: pointer;
   }
   
   #inputter button:hover {
-    background-color: #0056b3;
+    background-color: rgb(1, 160, 1);
   }
   
