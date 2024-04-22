@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire screen */
+    z-index: -1; /* Move the image behind other content */
+  }
+  
+  .centered-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container fill the entire viewport height */
+  }
+  
+  #inputter {
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+  }
+  
+  #inputter label {
+    font-weight: 300;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+  }
+  
+  #inputter input {
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 8px;
+  }
+  
+  #inputter button {
+    margin-top: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #inputter button:hover {
+    background-color: #0056b3;
+  }
+  

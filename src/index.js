@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter,RouterProvider,Route } from 'react-router-dom';
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import HomePage from './HomePage';
 import AboutUsPage from './AboutUsPage';
-import LogoutPage from './LogOutPage';
+import LogOutPage from './LogOutPage';
 const router=createBrowserRouter([
+{
+  path:"/",
+  element: <HomePage/>
+},
 {
   path:"Home",
   element: <HomePage/>
@@ -22,7 +26,7 @@ const router=createBrowserRouter([
 },
 {
   path:"Log Out",
-  element:<LogoutPage />
+  element:<LogOutPage />
 }])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

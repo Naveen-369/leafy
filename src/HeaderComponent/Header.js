@@ -7,7 +7,7 @@ const Header = (props) => {
         <header>
             <h1>{props.content}</h1>
             <nav>
-                <ul>
+                <ul className='nav-menu'>
                     <li><Link to='/Home'>Home</Link></li>
                     <li><Link to='/Services'>Services</Link></li>
                     <li><Link to='/About us'>About Us</Link></li>
