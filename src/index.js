@@ -10,7 +10,7 @@ import LogOutPage from './LogOutPage';
 const router=createBrowserRouter([
 {
   path:"/",
-  element: <HomePage/>
+  element: <LogOutPage/>
 },
 {
   path:"Home",

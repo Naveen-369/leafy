@@ -1,0 +1,61 @@
+#HomePageIntro{
+    color: white;
+}
+.IntroBox{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(27, 49, 28);;
+    color: white;
+    font-size: 45px;
+    p{
+        text-align: center;
+        font-size: 54px;
+        font-family: Playfair Display;
+    }
+}
+.FeaturesBox{
+    text-align: center;
+    color: white;
+    .FeaturesIntro{
+        font-size: 40px;
+        font-family: Artifika;
+    }
+    article{
+        display: flex;
+        justify-content: space-around;
+        section{
+            span{
+                font-size: 77px;
+                color:rgb(169, 203, 169);
+            }
+            p{
+                font-size: 24px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+    }
+}
+.WAUWFor{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+
+    p{
+        font-family: Artifika;
+        font-size: 50px;
+        margin: 0;
+        margin-bottom: 18px;
+    }
+    #ExploreButton{
+        max-width: 300px;
+        margin-left: 39%;
+        border: 1.2px solid white;
+    }
+    #ExploreButton:hover{
+        cursor: pointer;
+        background-color: rgb(23, 41, 24);
+        color: white;
+    }
+    
+}

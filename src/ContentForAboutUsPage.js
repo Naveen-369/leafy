@@ -1,5 +1,14 @@
 import React from 'react'
 function ContentForAboutUsPage() {
+    /*Declaration of the function to chanfge the button appearance */  
+  const changeButtonAppearance = () => {
+    const button = document.getElementById('ExploreButton');
+    if (button.innerHTML === 'Explore Now') {
+      button.innerHTML = 'Explore Now  →';
+    } else {
+      button.innerHTML = 'Explore Now';
+    }
+  };
     return (
         <div>
             <section id="AboutUsStyling" style={{color:'white',maxWidth:'75%'}}>                
@@ -17,6 +26,7 @@ function ContentForAboutUsPage() {
                 <h2 id='ForContent'>Get in Touch</h2>
                 <p>Thank you for choosing Leafy.com as your trusted source for plants and agricultural products. We are dedicated to providing you with exceptional service and top-quality products. If you have any questions, feedback, or inquiries, please don't hesitate to contact us. We look forward to helping you grow your green dreams!</p>
                 <br/>
+                <button id="ExploreButton"type='button' onClick={()=>window.location.href="/Services"} onMouseEnter={changeButtonAppearance} onMouseLeave={changeButtonAppearance} >Explore Now</button>
                 <p id='Decoration'>🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀</p>
 
             </section>

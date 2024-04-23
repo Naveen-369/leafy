@@ -27,3 +27,13 @@ li{
     text-align: center;
     color: green;
 }
+#ExploreButton{
+    max-width: 300px;
+    margin-left: 39%;
+    border: 1.2px solid white;
+}
+#ExploreButton:hover{
+    cursor: pointer;
+    background-color: rgb(23, 41, 24);
+    color: white;
+}

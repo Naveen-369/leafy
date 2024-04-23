@@ -1,11 +1,13 @@
 import React from 'react'
 import Header from './HeaderComponent/Header.js';
 import Footer from './FooterComponent/Footer.js';
+import ContentForHomePage from './ContentForHomePage.js';
+import './HomePageCss.css';
 function HomePage() {
   return (
     <div>
         <Header content="Leafy" />
-        <h1 style={{color:"white"}}>HomePage</h1>
+        <ContentForHomePage />
         <Footer />
     </div>
   )
