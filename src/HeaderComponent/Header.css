@@ -8,7 +8,9 @@ header{
     justify-content: space-between;
     h1{
         font-family: 'Elsie Swash Caps', serif;
-        margin: 6px;
+        margin:0;
+        margin-left: 3px;
+        font-size: 48px;
     }
     ul{
         list-style-type: none;
