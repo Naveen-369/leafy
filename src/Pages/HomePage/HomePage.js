@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './HeaderComponent/Header.js';
-import Footer from './FooterComponent/Footer.js';
+import Header from '../../Components/HeaderComponent/Header.js';
+import Footer from '../../Components/FooterComponent/Footer.js';
 import ContentForHomePage from './ContentForHomePage.js';
 import './HomePageCss.css';
 function HomePage() {

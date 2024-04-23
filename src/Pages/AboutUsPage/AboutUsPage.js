@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './HeaderComponent/Header.js';
-import Footer from './FooterComponent/Footer.js';
+import Header from '../../Components/HeaderComponent/Header.js';
+import Footer from '../../Components/FooterComponent/Footer.js';
 import ContentForAboutUsPage from './ContentForAboutUsPage.js'
 import './AboutUsPageCss.css';
 function AboutUsPage() {
